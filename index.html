@@ -1,0 +1,1234 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nutricionista em Feira de Santana e Salvador | Dra. Giceli Oliveira</title>
+<meta name="description" content="Clínica de Nutrição Avançada Dra. Giceli Oliveira (CRN5 8265). Emagrecimento com reeducação nutricional sem proibições, em Feira de Santana e Salvador. Agende pelo WhatsApp.">
+<meta name="theme-color" content="#073419">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Dra. Giceli Oliveira | Clínica de Nutrição Avançada">
+<meta property="og:description" content="Emagreça definitivamente, sem passar fome. Atendimento em Feira de Santana e Salvador.">
+<meta property="og:image" content="img/og-giceli.jpg">
+<link rel="icon" type="image/png" href="img/logo-emblem.png">
+<link rel="preload" href="fonts/marcellus-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/albert-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/giceli-retrato-1100.webp" imagesrcset="img/giceli-retrato-640.webp 640w, img/giceli-retrato-1100.webp 1100w" imagesizes="(max-width: 860px) 88vw, 40vw">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dietitian",
+  "name": "Clínica de Nutrição Avançada Dra. Giceli Oliveira",
+  "description": "Nutricionista com foco em emagrecimento definitivo e reeducação nutricional. CRN5 8265.",
+  "image": "img/og-giceli.jpg",
+  "telephone": ["+55-71-98673-1801", "+55-75-99169-7851"],
+  "sameAs": ["https://www.instagram.com/nutrigicelioliveira/", "https://www.facebook.com/nutrigicelioliveira/"],
+  "location": [
+    {"@type": "Place", "name": "Unidade Feira de Santana", "address": {"@type": "PostalAddress", "streetAddress": "Av. Getúlio Vargas, 792, Edf. Ícone Tower, Sala 607", "addressLocality": "Feira de Santana", "addressRegion": "BA", "postalCode": "44001-525", "addressCountry": "BR"}, "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59"}},
+    {"@type": "Place", "name": "Unidade Salvador", "address": {"@type": "PostalAddress", "streetAddress": "Av. Tancredo Neves, CEO Salvador Shopping, Torre Londres, 4º andar, Sala 405", "addressLocality": "Salvador", "addressRegion": "BA", "postalCode": "41820-774", "addressCountry": "BR"}, "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "07:00", "closes": "22:00"}}
+  ]
+}
+</script>
+
+<style>
+@font-face{font-family:"Marcellus";src:url("fonts/marcellus-latin.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Albert Sans";src:url("fonts/albert-sans-latin.woff2") format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+
+/* ---------- Tokens ---------- */
+:root{
+  color-scheme: dark;
+  interpolate-size: allow-keywords;
+  /* Brand greens, sampled from the logo background (#073419) */
+  --g-975:#031a0c;
+  --g-950:#05260f;
+  --g-900:#073419;
+  --g-850:#0a3d20;
+  --g-800:#0e4727;
+  --g-700:#155a33;
+  --line:rgba(217,187,106,.22);
+  --line-soft:rgba(244,239,226,.10);
+  /* Gold from the logo */
+  --gold-200:#f1e3b4;
+  --gold-300:#e6cf8c;
+  --gold-400:#d9bb6a;
+  --gold-500:#c9a24b;
+  --gold-600:#a8843a;
+  --gold-grad:linear-gradient(135deg,#ecd690 0%,#d4b25e 45%,#b8913f 100%);
+  /* Ivory text on green */
+  --ink:#f4efe2;
+  --ink-2:rgba(244,239,226,.78);
+  --ink-3:rgba(244,239,226,.62);
+  --on-gold:#062612;
+
+  --r-panel:14px;
+  --r-pill:999px;
+  --shadow:0 24px 60px -24px rgba(1,14,6,.7), 0 2px 6px rgba(1,14,6,.25);
+
+  --ease-out:cubic-bezier(.23,1,.32,1);
+  --ease-in-out:cubic-bezier(.77,0,.175,1);
+  --ease-drawer:cubic-bezier(.32,.72,0,1);
+
+  --wrap:1240px;
+  --gutter:clamp(16px,4vw,40px);
+  --section:clamp(80px,10vw,144px);
+
+  --f-display:"Marcellus", "Times New Roman", serif;
+  --f-body:"Albert Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* ---------- Base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:88px}
+body{margin:0;background:var(--g-900);color:var(--ink);font-family:var(--f-body);font-size:clamp(16px,.95rem + .15vw,18px);line-height:1.62;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration-color:var(--gold-500);text-underline-offset:.22em;text-decoration-thickness:1px}
+button{font:inherit;color:inherit}
+h1,h2,h3,h4{font-family:var(--f-display);font-weight:400;margin:0;letter-spacing:-.01em;text-wrap:balance}
+p{margin:0;text-wrap:pretty}
+ul{margin:0;padding:0;list-style:none}
+::selection{background:var(--gold-400);color:var(--on-gold)}
+:focus-visible{outline:2px solid var(--gold-400);outline-offset:3px;border-radius:6px}
+html{scrollbar-color:var(--g-700) var(--g-975)}
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-track{background:var(--g-975)}
+::-webkit-scrollbar-thumb{background:var(--g-700);border-radius:99px;border:3px solid var(--g-975)}
+.icon{width:1.15em;height:1.15em;fill:currentColor;flex:none}
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gutter)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{position:absolute;left:12px;top:-60px;z-index:100;background:var(--gold-400);color:var(--on-gold);padding:10px 16px;border-radius:var(--r-pill);font-weight:600;text-decoration:none;transition:top .2s var(--ease-out)}
+.skip:focus{top:12px}
+
+/* z-index scale: header 40, mobile bar 45, menu 50, dialog (top layer) */
+
+/* ---------- Buttons ---------- */
+.btn{--h:52px;display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:var(--h);padding:0 1.6em;border-radius:var(--r-pill);font-weight:600;font-size:1rem;letter-spacing:.005em;text-decoration:none;white-space:nowrap;border:0;cursor:pointer;transition:transform .16s var(--ease-out),background-color .2s ease,box-shadow .25s var(--ease-out),color .2s ease;-webkit-tap-highlight-color:transparent;user-select:none}
+.btn:active{transform:scale(.97)}
+.btn-gold{background:var(--gold-grad);color:var(--on-gold);box-shadow:0 10px 22px -12px rgba(1,14,6,.85), inset 0 1px 0 rgba(255,255,255,.35)}
+.btn-ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.btn-sm{--h:42px;padding:0 1.15em;font-size:.94rem}
+.btn .icon{width:1.25em;height:1.25em}
+@media (hover:hover) and (pointer:fine){
+  .btn-gold:hover{box-shadow:0 14px 28px -14px rgba(1,14,6,.95), inset 0 1px 0 rgba(255,255,255,.45);transform:translateY(-1px)}
+  .btn-gold:active{transform:scale(.97)}
+  .btn-ghost:hover{box-shadow:inset 0 0 0 1px var(--gold-400);color:var(--gold-200)}
+}
+.link-arrow{display:inline-flex;align-items:center;gap:.45em;color:var(--gold-300);font-weight:600;text-decoration:none}
+.link-arrow .icon{transition:transform .2s var(--ease-out)}
+@media (hover:hover) and (pointer:fine){.link-arrow:hover .icon{transform:translateX(3px)}}
+
+/* ---------- Header ---------- */
+.site-header{position:sticky;top:0;z-index:40;transition:background-color .3s ease,box-shadow .3s ease,backdrop-filter .3s ease}
+.site-header::after{content:"";position:absolute;left:0;right:0;top:100%;height:20px;background:linear-gradient(rgba(5,38,15,.6),rgba(5,38,15,0));opacity:0;transition:opacity .3s ease;pointer-events:none}
+.site-header.is-scrolled::after{opacity:1}
+.site-header.is-scrolled{background:rgba(5,38,15,.86);-webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%)}
+.header-row{display:flex;align-items:center;justify-content:space-between;gap:24px;height:76px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}
+.brand-emblem{height:46px;width:auto}
+.brand-word{height:26px;width:auto}
+.nav{display:flex;align-items:center;gap:clamp(14px,2vw,30px)}
+.nav .btn{flex:none;margin-left:6px}
+.nav a:not(.btn){font-size:.95rem;text-decoration:none;color:var(--ink-2);transition:color .2s ease;padding:6px 0}
+@media (hover:hover){.nav a:not(.btn):hover{color:var(--gold-300)}}
+.menu-btn{display:none;width:46px;height:46px;border-radius:var(--r-pill);border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line);align-items:center;justify-content:center;cursor:pointer}
+.menu-btn .icon{width:22px;height:22px}
+.menu-btn{transition:transform .16s var(--ease-out)}
+.menu-btn:active{transform:scale(.94)}
+@media (max-width:1060px){
+  .nav a:not(.btn){display:none}
+}
+@media (max-width:860px){
+  .header-row{height:64px}
+  .brand-emblem{height:38px}
+  .brand-word{height:20px}
+  .nav .btn{display:none}
+  .menu-btn{display:inline-flex}
+}
+@media (max-width:380px){.brand-word{height:17px}}
+
+/* Mobile menu */
+.menu{position:fixed;inset:0;z-index:50;background:var(--g-950);display:flex;flex-direction:column;padding:12px var(--gutter) calc(24px + env(safe-area-inset-bottom));opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .22s var(--ease-out),transform .28s var(--ease-out),visibility 0s linear .28s}
+.menu.is-open{opacity:1;visibility:visible;transform:none;transition:opacity .22s var(--ease-out),transform .28s var(--ease-out),visibility 0s}
+.menu-top{display:flex;justify-content:space-between;align-items:center;height:52px}
+.menu nav{display:flex;flex-direction:column;margin-top:28px}
+.menu nav a{font-family:var(--f-display);font-size:clamp(1.9rem,8vw,2.4rem);text-decoration:none;padding:10px 0;border-bottom:1px solid var(--line-soft)}
+.menu .btn{margin-top:auto}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding-top:clamp(20px,4vw,56px);padding-bottom:clamp(64px,8vw,112px);isolation:isolate}
+.hero::before{content:"";position:absolute;inset:-80px 0 0;z-index:-1;background:linear-gradient(100deg,var(--g-900) 35%,var(--g-850) 70%,var(--g-800))}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:clamp(32px,6vw,96px);align-items:center}
+.hero h1{font-size:clamp(2.6rem,1.3rem + 3.2vw,4rem);line-height:1.04;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--gold-300)}
+.hero-sub{margin-top:clamp(18px,2vw,28px);max-width:34ch;font-size:clamp(1.06rem,.98rem + .35vw,1.28rem);color:var(--ink-2);line-height:1.55}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(28px,3vw,40px)}
+.portrait{position:relative;justify-self:end;width:min(100%,470px)}
+.portrait-frame{position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--gold-500);border-radius:var(--r-panel);opacity:.7}
+.portrait-img{position:relative;border-radius:var(--r-panel);overflow:hidden;aspect-ratio:4/5;background:var(--g-850);box-shadow:var(--shadow)}
+.portrait-img img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr;gap:44px}
+  .portrait{justify-self:start;width:min(88%,420px);margin-left:4px}
+  .hero-sub{max-width:40ch}
+  .hero-ctas .btn{flex:1 1 auto}
+}
+
+/* Hero entrance (the page's one orchestrated moment) */
+@media (prefers-reduced-motion:no-preference){
+  .js .hero [data-in]{opacity:0;transform:translateY(18px);animation:rise .9s var(--ease-out) forwards;animation-delay:calc(var(--i,0) * 80ms + 120ms)}
+  .js .portrait-img{clip-path:inset(100% 0 0 0 round var(--r-panel));animation:unveil 1.15s var(--ease-in-out) .15s forwards}
+  .js .portrait-img img{transform:scale(1.12);animation:settle 1.6s var(--ease-out) .15s forwards}
+  .js .portrait-frame{opacity:0;transform:translate(-18px,-18px);animation:frame .9s var(--ease-out) .85s forwards}
+}
+@keyframes rise{to{opacity:1;transform:none}}
+@keyframes unveil{to{clip-path:inset(0 0 0 0 round var(--r-panel))}}
+@keyframes settle{to{transform:scale(1)}}
+@keyframes frame{to{opacity:.7;transform:none}}
+
+/* ---------- Proof strip ---------- */
+.proof{border-block:1px solid var(--line-soft);background:var(--g-950)}
+.proof ul{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.proof li{display:flex;align-items:center;gap:14px;padding:26px clamp(12px,2vw,28px);border-left:1px solid var(--line-soft)}
+.proof li:first-child{border-left:0;padding-left:0}
+.proof strong{display:block;font-family:var(--f-display);font-weight:400;font-size:1.32rem;line-height:1.15;color:var(--gold-200)}
+.proof span{display:block;font-size:.88rem;color:var(--ink-3);line-height:1.4;margin-top:4px}
+.stars{display:inline-flex;gap:2px;color:var(--gold-400)}
+.stars .icon{width:14px;height:14px}
+@media (max-width:980px){
+  .proof ul{grid-template-columns:1fr 1fr}
+  .proof li:nth-child(3){border-left:0;padding-left:0}
+  .proof li:nth-child(n+3){border-top:1px solid var(--line-soft)}
+}
+@media (max-width:520px){
+  .proof ul{grid-template-columns:1fr}
+  .proof li{border-left:0;padding-left:0;padding-block:18px}
+  .proof li+li{border-top:1px solid var(--line-soft)}
+}
+
+/* ---------- Sections ---------- */
+.section{padding-block:var(--section)}
+.section-head{max-width:760px;margin-bottom:clamp(36px,5vw,64px)}
+.section-head h2{font-size:clamp(2.1rem,1.3rem + 2.5vw,3.5rem);line-height:1.06}
+.section-head p{margin-top:18px;color:var(--ink-2);max-width:60ch;font-size:1.06rem}
+.tone-deep{background:var(--g-950)}
+.tone-darkest{background:var(--g-975)}
+
+/* Reveal */
+@media (prefers-reduced-motion:no-preference){
+  .js [data-reveal]{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease-out),transform .8s var(--ease-out);transition-delay:calc(var(--i,0) * 70ms)}
+  .js [data-reveal].is-in{opacity:1;transform:none}
+}
+
+/* ---------- Services ---------- */
+.feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center;padding-bottom:clamp(56px,7vw,96px);margin-bottom:clamp(40px,5vw,64px);border-bottom:1px solid var(--line-soft)}
+.feature-media{border-radius:var(--r-panel);overflow:hidden;aspect-ratio:5/4;position:relative;box-shadow:var(--shadow)}
+.feature-media img{width:100%;height:100%;object-fit:cover}
+.grade::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,52,25,0) 40%,rgba(7,52,25,.55));mix-blend-mode:multiply;pointer-events:none}
+.feature h3{font-size:clamp(2rem,1.4rem + 1.8vw,3rem);line-height:1.05}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px;color:var(--gold-300);font-size:.95rem}
+.meta span{display:inline-flex;align-items:center;gap:7px}
+.feature p{margin-top:18px;color:var(--ink-2);max-width:56ch}
+.feature p.lead{color:var(--ink);font-size:1.12rem}
+.feature .btn{margin-top:28px}
+@media (max-width:860px){.feature{grid-template-columns:1fr}}
+
+.svc-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(28px,5vw,72px);align-items:start}
+.svc-list{counter-reset:none}
+.svc{display:grid;grid-template-columns:1fr auto;align-items:center;gap:20px;padding:22px 0;border-bottom:1px solid var(--line-soft);scroll-margin-top:110px;transition:background-color .3s ease}
+.svc:first-child{border-top:1px solid var(--line-soft)}
+.svc-thumb{display:none;width:88px;height:66px;border-radius:10px;overflow:hidden}
+.svc-thumb img{width:100%;height:100%;object-fit:cover}
+.svc-name{font-family:var(--f-display);font-size:clamp(1.35rem,1.05rem + 1vw,2rem);line-height:1.15;transition:color .25s ease,transform .35s var(--ease-out)}
+.svc-dur{display:inline-flex;align-items:center;gap:7px;color:var(--ink-3);font-size:.92rem;margin-top:4px}
+.svc-cta{display:inline-flex;align-items:center;gap:8px;color:var(--gold-300);font-weight:600;text-decoration:none;font-size:.95rem;padding:10px 0}
+.svc-cta .icon{transition:transform .2s var(--ease-out)}
+.svc-cta,.link-arrow{transition:transform .16s var(--ease-out)}
+.svc-cta:active,.link-arrow:active{transform:scale(.97)}
+.svc.is-active .svc-name,.svc:target .svc-name{color:var(--gold-200);transform:translateX(6px)}
+.svc:target{background:linear-gradient(90deg,rgba(217,187,106,.08),transparent 70%)}
+@media (hover:hover) and (pointer:fine){.svc-cta:hover .icon{transform:translateX(3px)}}
+.svc-preview{position:sticky;top:110px;aspect-ratio:4/5;border-radius:var(--r-panel);overflow:hidden;background:var(--g-850);box-shadow:var(--shadow)}
+.svc-preview img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;filter:blur(8px) saturate(.8);transform:scale(1.04);transition:opacity .45s var(--ease-out),filter .45s var(--ease-out),transform .6s var(--ease-out)}
+.svc-preview img.is-on{opacity:1;filter:blur(0) saturate(.85);transform:none}
+.svc-preview figcaption{position:absolute;inset:auto 0 0 0;padding:22px;background:linear-gradient(transparent,rgba(3,26,12,.85));font-family:var(--f-display);font-size:1.25rem;color:var(--gold-200)}
+@media (max-width:860px){
+  .svc-layout{grid-template-columns:1fr}
+  .svc-preview{display:none}
+  .svc{grid-template-columns:auto 1fr;gap:4px 16px;padding:18px 0}
+  .svc-thumb{grid-row:span 2;align-self:start}
+  .svc-thumb{display:block}
+  .svc-cta{grid-column:2;justify-self:start;padding:2px 0 0}
+}
+
+/* ---------- Method ---------- */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,3vw,40px);position:relative}
+.steps::before{content:"";position:absolute;left:0;right:0;top:27px;height:1px;background:linear-gradient(90deg,var(--gold-500),rgba(201,162,75,.15))}
+.step-dot{position:relative;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--g-900);box-shadow:inset 0 0 0 1px var(--gold-500);color:var(--gold-300)}
+.step-dot .icon{width:24px;height:24px}
+.step h3{font-size:1.45rem;margin-top:22px;line-height:1.15}
+.step p{margin-top:10px;color:var(--ink-2);font-size:.98rem}
+@media (max-width:900px){
+  .steps{grid-template-columns:1fr;gap:0}
+  .steps::before{left:27px;right:auto;top:28px;bottom:28px;width:1px;height:auto;background:linear-gradient(180deg,var(--gold-500),rgba(201,162,75,.15))}
+  .step{display:grid;grid-template-columns:56px 1fr;column-gap:20px;padding-bottom:30px}
+  .step h3{margin-top:12px}
+  .step p{grid-column:2}
+}
+
+.deliver-head{margin-top:clamp(64px,8vw,112px);margin-bottom:28px;font-size:clamp(1.7rem,1.2rem + 1.4vw,2.4rem)}
+.bento{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+.cell{border-radius:var(--r-panel);padding:clamp(22px,2.4vw,32px);background:var(--g-850);box-shadow:inset 0 0 0 1px var(--line-soft);display:flex;flex-direction:column;gap:12px;min-height:180px}
+.cell h4{font-size:1.4rem;line-height:1.15}
+.cell p{color:var(--ink-2);font-size:.97rem}
+.cell .tick{display:flex;gap:10px;align-items:flex-start;font-size:.98rem;color:var(--ink-2)}
+.cell .tick .icon{color:var(--gold-400);margin-top:4px;width:16px;height:16px}
+.cell ul{display:grid;gap:8px;margin-top:4px}
+.cell-gold{grid-column:span 3;justify-content:space-between;background:var(--gold-grad);color:var(--on-gold);box-shadow:none}
+.cell-gold p,.cell-gold .tick{color:rgba(6,38,18,.82)}
+.cell-gold .tick .icon{color:var(--on-gold)}
+.cell-app{grid-column:span 3;background:linear-gradient(160deg,var(--g-800),var(--g-950) 75%);box-shadow:inset 0 0 0 1px var(--line)}
+@media (min-width:980px){
+  .bento{grid-template-columns:repeat(12,minmax(0,1fr))}
+  .cell-gold{grid-column:span 5;grid-row:span 2}
+  .cell-app{grid-column:span 7}
+  .cell-split{grid-column:span 7;display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;padding:0;overflow:hidden}
+  .cell-split > div{padding:clamp(22px,2.4vw,30px);display:flex;flex-direction:column;gap:10px}
+  .cell-split > div + div{border-left:1px solid var(--line-soft)}
+}
+@media (max-width:979px){
+  .cell-gold,.cell-app{grid-column:1/-1}
+  .cell-split{grid-column:1/-1;display:grid;grid-template-columns:1fr;gap:0;padding:0}
+  .cell-split > div{padding:22px;display:flex;flex-direction:column;gap:8px}
+  .cell-split > div + div{border-top:1px solid var(--line-soft)}
+}
+
+/* ---------- Reviews ---------- */
+.reviews-top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:28px;margin-bottom:clamp(32px,4vw,52px)}
+.score{display:flex;align-items:center;gap:22px}
+.score-num{font-family:var(--f-display);font-size:clamp(4.2rem,3rem + 4vw,6rem);line-height:.9;color:var(--gold-300)}
+.score .stars .icon{width:20px;height:20px}
+.score p{color:var(--ink-2);font-size:.98rem;margin-top:8px;max-width:28ch}
+.reviews-top h2{font-size:clamp(2.1rem,1.3rem + 2.5vw,3.5rem);line-height:1.06;max-width:16ch}
+.carousel{position:relative}
+.track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 32px) / 3);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;overscroll-behavior-x:contain;cursor:grab}
+.track::-webkit-scrollbar{display:none}
+.track.is-drag{cursor:grabbing;scroll-snap-type:none}
+.track.is-drag *{pointer-events:none}
+.review{scroll-snap-align:start;border-radius:var(--r-panel);background:var(--g-850);box-shadow:inset 0 0 0 1px var(--line-soft);padding:28px;display:flex;flex-direction:column;gap:18px;min-height:250px;user-select:none}
+.review blockquote{margin:0;font-size:1.04rem;line-height:1.6;color:var(--ink);display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+.review footer{margin-top:auto;display:flex;align-items:center;gap:12px}
+.avatar{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--g-700);color:var(--gold-200);font-family:var(--f-display);font-size:1.1rem;flex:none}
+.review cite{font-style:normal;font-weight:600;display:block;line-height:1.2}
+.review small{color:var(--ink-3);font-size:.84rem}
+.car-ctrl{display:flex;gap:10px;align-items:center}
+.round{width:48px;height:48px;border-radius:50%;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line);display:grid;place-items:center;cursor:pointer;color:var(--ink);transition:box-shadow .2s ease,opacity .2s ease,transform .16s var(--ease-out)}
+.round:active{transform:scale(.94)}
+.round:disabled{opacity:.35;cursor:default}
+@media (hover:hover){.round:not(:disabled):hover{box-shadow:inset 0 0 0 1px var(--gold-400);color:var(--gold-200)}}
+.reviews-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;margin-top:28px}
+@media (max-width:900px){.track{grid-auto-columns:minmax(280px,82%)}}
+
+/* ---------- About ---------- */
+.about{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(32px,6vw,96px);align-items:start}
+.about-photo{position:sticky;top:110px;border-radius:var(--r-panel);overflow:hidden;aspect-ratio:2/3;box-shadow:var(--shadow)}
+.about-photo img{width:100%;height:100%;object-fit:cover}
+.about h2{font-size:clamp(2.1rem,1.3rem + 2.5vw,3.5rem);line-height:1.06}
+.about .creds{margin-top:14px;color:var(--gold-300)}
+.about .body{margin-top:26px;display:grid;gap:18px;color:var(--ink-2);max-width:62ch}
+.about .body p:first-child{color:var(--ink);font-size:1.12rem}
+.mvv{margin-top:clamp(36px,4vw,52px);display:grid;gap:0;border-top:1px solid var(--line-soft)}
+.mvv div{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:20px 0;border-bottom:1px solid var(--line-soft)}
+.mvv dt{font-family:var(--f-display);font-size:1.25rem;color:var(--gold-300)}
+.mvv dd{margin:0;color:var(--ink-2)}
+@media (max-width:860px){
+  .about{grid-template-columns:1fr}
+  .about-photo{position:relative;top:0;aspect-ratio:4/5;max-height:72vh}
+  .mvv div{grid-template-columns:1fr;gap:6px}
+}
+
+.manifesto{padding-block:clamp(88px,11vw,160px);text-align:center;position:relative;overflow:hidden;isolation:isolate}
+.manifesto img{margin:0 auto 34px;height:clamp(64px,7vw,88px);width:auto}
+.manifesto p{font-family:var(--f-display);font-size:clamp(2rem,1.2rem + 3.4vw,4.4rem);line-height:1.08;letter-spacing:-.02em;max-width:18ch;margin-inline:auto}
+.manifesto p em{font-style:normal;color:var(--gold-300)}
+
+/* ---------- Media bento ---------- */
+.media-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:auto;gap:14px}
+.m{margin:0;border-radius:var(--r-panel);overflow:hidden;background:var(--g-850);box-shadow:inset 0 0 0 1px var(--line-soft);display:flex;flex-direction:column}
+.m-img{position:relative;overflow:hidden;flex:1;min-height:0}
+.m img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease-out)}
+.m figcaption{padding:14px 16px 16px;font-size:.92rem;line-height:1.4;color:var(--ink-2)}
+.m figcaption strong{display:block;color:var(--ink);font-weight:600;font-size:.98rem;margin-bottom:2px}
+.m-xl{grid-column:span 2;grid-row:span 2}
+.m-wide{grid-column:span 2}
+.m .m-img{aspect-ratio:1/1}
+.m-wide .m-img{aspect-ratio:16/8.6}
+.m-xl .m-img{aspect-ratio:auto}
+.m-xl img{position:absolute;inset:0;object-position:100% 50%}
+.m-doc .m-img{background:#eef3ef}
+.m-doc img{object-fit:contain;padding:10px}
+@media (hover:hover) and (pointer:fine){.m:hover img{transform:scale(1.035)}}
+@media (max-width:900px){
+  .media-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .m-xl,.m-wide{grid-column:1/-1;grid-row:auto}
+  .m-xl .m-img{aspect-ratio:1/1}
+  .m figcaption{font-size:.86rem;padding:12px}
+}
+
+/* ---------- FAQ ---------- */
+.faq-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,6vw,96px);align-items:start}
+.faq-aside{position:sticky;top:110px}
+.faq-aside h2{font-size:clamp(2.1rem,1.3rem + 2.5vw,3.5rem);line-height:1.06}
+.faq-aside p{margin-top:18px;color:var(--ink-2)}
+.faq-aside .btn{margin-top:28px}
+.qa{border-bottom:1px solid var(--line-soft)}
+.qa:first-child{border-top:1px solid var(--line-soft)}
+.qa summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;font-family:var(--f-display);font-size:clamp(1.2rem,1rem + .6vw,1.5rem);line-height:1.3}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary .icon{color:var(--gold-400);transition:transform .3s var(--ease-out);width:22px;height:22px}
+.qa[open] summary .icon{transform:rotate(45deg)}
+.qa::details-content{block-size:0;overflow-y:clip;transition:block-size .24s var(--ease-out),content-visibility .24s allow-discrete}
+.qa[open]::details-content{block-size:auto;transition-duration:.34s}
+.qa .ans{padding:0 0 26px;color:var(--ink-2);max-width:62ch;display:grid;gap:12px}
+.qa .ans ol{margin:0;padding-left:1.2em;display:grid;gap:10px}
+.qa .ans ol li::marker{color:var(--gold-400);font-family:var(--f-display)}
+.qa .who{font-size:.86rem;color:var(--ink-3)}
+@media (prefers-reduced-motion:no-preference){
+  .qa[open] .ans{animation:ans .4s var(--ease-out)}
+}
+@keyframes ans{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+@media (max-width:860px){.faq-grid{grid-template-columns:1fr}.faq-aside{position:relative;top:0}}
+
+/* ---------- Locations ---------- */
+.units{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.unit{border-radius:var(--r-panel);overflow:hidden;background:var(--g-850);box-shadow:inset 0 0 0 1px var(--line-soft);display:flex;flex-direction:column}
+.unit-map{aspect-ratio:16/9;background:var(--g-800);position:relative}
+.unit-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.35) contrast(1.05)}
+.unit-body{padding:clamp(24px,3vw,34px);display:flex;flex-direction:column;gap:14px;flex:1}
+.unit h3{font-size:clamp(1.6rem,1.2rem + 1vw,2.1rem)}
+.unit .rating{display:flex;align-items:center;gap:10px;color:var(--ink-2);font-size:.92rem}
+.unit address,.unit .hours{font-style:normal;color:var(--ink-2);display:flex;gap:10px}
+.unit address .icon,.unit .hours .icon{color:var(--gold-400);margin-top:4px}
+.unit-ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:10px}
+@media (max-width:860px){.units{grid-template-columns:1fr}.unit-ctas .btn{flex:1 1 auto}}
+.info-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:16px}
+.info{padding:22px 24px;border-radius:var(--r-panel);box-shadow:inset 0 0 0 1px var(--line-soft);display:flex;gap:14px}
+.info .icon{color:var(--gold-400);width:22px;height:22px;margin-top:2px}
+.info strong{display:block;font-weight:600}
+.info p{color:var(--ink-2);font-size:.95rem;margin-top:4px}
+@media (max-width:900px){.info-row{grid-template-columns:1fr}}
+
+/* ---------- Final CTA ---------- */
+.final{position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(115deg,var(--g-950) 40%,var(--g-800))}
+.final-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:end;gap:32px}
+.final h2{font-size:clamp(2.3rem,1.4rem + 3vw,4.2rem);line-height:1.04;letter-spacing:-.02em;max-width:16ch}
+.final .quote{margin-top:22px;color:var(--ink-2)}
+.final .quote span{color:var(--ink-3)}
+.final .hero-ctas{margin-top:32px}
+.final-photo{justify-self:end;width:min(100%,360px);margin-bottom:calc(var(--section) * -1);-webkit-mask-image:linear-gradient(to left,transparent 0,#000 18%);mask-image:linear-gradient(to left,transparent 0,#000 18%)}
+@media (max-width:860px){
+  .final-grid{grid-template-columns:1fr}
+  .final-photo{justify-self:center;width:min(80%,300px)}
+}
+
+/* ---------- Footer ---------- */
+.footer{background:var(--g-975);padding-block:clamp(56px,6vw,80px) calc(40px + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
+.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:36px}
+.footer-logo{width:min(260px,100%)}
+.footer h4{font-family:var(--f-body);font-weight:600;font-size:.95rem;color:var(--gold-300);margin-bottom:14px}
+.footer li{margin-bottom:10px}
+.footer a{text-decoration:none;color:var(--ink-2)}
+@media (hover:hover){.footer a:hover{color:var(--gold-200)}}
+.footer p{color:var(--ink-2);font-size:.95rem}
+.socials{display:flex;gap:10px;margin-top:18px}
+.socials a{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;box-shadow:inset 0 0 0 1px var(--line);color:var(--ink)}
+.socials .icon{width:20px;height:20px}
+.legal{margin-top:48px;padding-top:24px;border-top:1px solid var(--line-soft);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.86rem;color:var(--ink-3)}
+@media (max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}.footer-grid > :first-child{grid-column:1/-1}}
+@media (max-width:520px){.footer-grid{grid-template-columns:1fr}}
+
+/* ---------- Mobile booking bar ---------- */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:45;padding:10px var(--gutter) calc(10px + env(safe-area-inset-bottom));background:rgba(3,26,12,.9);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 -1px 0 var(--line-soft);transform:translateY(110%);transition:transform .35s var(--ease-drawer)}
+.mbar.is-on{transform:none}
+.mbar .btn{width:100%}
+@media (min-width:861px){.mbar{display:none}}
+@media (max-width:860px){.footer{padding-bottom:calc(110px + env(safe-area-inset-bottom))}}
+
+/* ---------- WhatsApp unit chooser ---------- */
+.wa-dialog{border:0;padding:0;background:transparent;color:var(--ink);max-width:none;max-height:none;width:100%;height:100%;margin:0;inset:0}
+.wa-dialog::backdrop{background:rgba(1,12,5,.62);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);opacity:var(--bd,1)}
+.wa-shell{position:absolute;inset:0;display:grid;place-items:center;padding:16px}
+.wa-card{width:min(100%,460px);background:var(--g-900);border-radius:20px;box-shadow:inset 0 0 0 1px var(--line),0 40px 80px -20px rgba(0,0,0,.6);padding:28px;position:relative}
+.wa-card h2{font-size:1.8rem;line-height:1.1;padding-right:44px}
+.wa-card > p{color:var(--ink-2);margin-top:10px}
+.wa-opts{display:grid;gap:10px;margin-top:22px}
+.wa-opt{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:var(--r-panel);text-decoration:none;background:var(--g-850);box-shadow:inset 0 0 0 1px var(--line-soft);transition:box-shadow .2s ease,transform .16s var(--ease-out)}
+.wa-opt:active{transform:scale(.98)}
+@media (hover:hover){.wa-opt:hover{box-shadow:inset 0 0 0 1px var(--gold-400)}}
+.wa-opt .wa-ic{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--gold-grad);color:var(--on-gold);flex:none}
+.wa-opt .wa-ic .icon{width:22px;height:22px}
+.wa-opt strong{display:block;font-weight:600}
+.wa-opt span{color:var(--ink-3);font-size:.92rem}
+.wa-opt > .icon{margin-left:auto;color:var(--gold-300)}
+.wa-close{position:absolute;top:18px;right:18px}
+.wa-grab{display:none}
+.wa-dialog[open] .wa-card{animation:pop .24s var(--ease-out)}
+@keyframes pop{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+@media (max-width:600px){
+  .wa-shell{place-items:end stretch;padding:0}
+  .wa-card{width:100%;border-radius:22px 22px 0 0;padding:30px var(--gutter) calc(26px + env(safe-area-inset-bottom));touch-action:none}
+  .wa-grab{display:block;position:absolute;top:9px;left:50%;width:38px;height:5px;margin-left:-19px;border-radius:99px;background:rgba(244,239,226,.28)}
+  .wa-dialog[open] .wa-card{animation:sheet .38s var(--ease-drawer)}
+}
+@keyframes sheet{from{transform:translateY(100%)}to{transform:none}}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+}
+/* Translucent chrome turns solid when the visitor asks for less transparency */
+@media (prefers-reduced-transparency:reduce){
+  .site-header.is-scrolled,.mbar{background:var(--g-950);-webkit-backdrop-filter:none;backdrop-filter:none}
+  .wa-dialog::backdrop{background:rgba(1,12,5,.88);-webkit-backdrop-filter:none;backdrop-filter:none}
+}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="i-arrow-right" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></symbol>
+<symbol id="i-arrow-up-right" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></symbol>
+<symbol id="i-calendar-check" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-38.34-85.66a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L116,164.69l42.34-42.35A8,8,0,0,1,169.66,122.34Z"/></symbol>
+<symbol id="i-caret-left" viewBox="0 0 256 256"><path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"/></symbol>
+<symbol id="i-caret-right" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"/></symbol>
+<symbol id="i-check" viewBox="0 0 256 256"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></symbol>
+<symbol id="i-clock" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"/></symbol>
+<symbol id="i-facebook-logo" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"/></symbol>
+<symbol id="i-google-logo" viewBox="0 0 256 256"><path d="M224,128a96,96,0,1,1-21.95-61.09,8,8,0,1,1-12.33,10.18A80,80,0,1,0,207.6,136H128a8,8,0,0,1,0-16h88A8,8,0,0,1,224,128Z"/></symbol>
+<symbol id="i-instagram-logo" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"/></symbol>
+<symbol id="i-list" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></symbol>
+<symbol id="i-map-pin" viewBox="0 0 256 256"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></symbol>
+<symbol id="i-phone" viewBox="0 0 256 256"><path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"/></symbol>
+<symbol id="i-plus" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></symbol>
+<symbol id="i-star" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></symbol>
+<symbol id="i-whatsapp-logo" viewBox="0 0 256 256"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></symbol>
+<symbol id="i-x" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></symbol>
+</svg>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header" id="topo">
+  <div class="wrap header-row">
+    <a class="brand" href="#inicio" aria-label="Dra. Giceli Oliveira, Clínica de Nutrição Avançada, início">
+      <img class="brand-emblem" src="img/logo-emblem.png" width="148" height="279" alt="">
+      <img class="brand-word" src="img/logo-word.png" width="922" height="158" alt="Clínica de Nutrição Avançada Dra. Giceli Oliveira">
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#metodo">Como funciona</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#localizacao">Localização</a>
+      <a class="btn btn-gold btn-sm wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Vim pelo site e quero agendar uma consulta.">
+        <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Agendar consulta
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <svg class="icon" aria-hidden="true"><use href="#i-list"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="menu-top">
+    <img class="brand-word" src="img/logo-word.png" width="922" height="158" alt="Dra. Giceli Oliveira" style="height:20px;width:auto">
+    <button class="round menu-close" type="button" aria-label="Fechar menu"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+  </div>
+  <nav aria-label="Menu móvel">
+    <a href="#servicos">Serviços</a>
+    <a href="#metodo">Como funciona</a>
+    <a href="#avaliacoes">Avaliações</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#duvidas">Dúvidas</a>
+    <a href="#localizacao">Localização</a>
+  </nav>
+  <a class="btn btn-gold wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Vim pelo site e quero agendar uma consulta.">
+    <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Agendar consulta
+  </a>
+</div>
+
+<main id="conteudo">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div>
+      <h1 id="hero-title" data-in style="--i:0">Emagreça definitivamente, <em>sem passar fome.</em></h1>
+      <p class="hero-sub" data-in style="--i:1">Reeducação nutricional sem proibições, com um plano feito para o seu corpo, a sua rotina e o que você gosta de comer.</p>
+      <div class="hero-ctas" data-in style="--i:2">
+        <a class="btn btn-gold wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Vim pelo site e quero agendar uma consulta.">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Agendar consulta
+        </a>
+        <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+      </div>
+    </div>
+    <div class="portrait">
+      <div class="portrait-frame" aria-hidden="true"></div>
+      <div class="portrait-img">
+        <img src="img/giceli-retrato-1100.webp" srcset="img/giceli-retrato-640.webp 640w, img/giceli-retrato-1100.webp 1100w" sizes="(max-width: 860px) 88vw, 40vw" width="1100" height="1661" alt="Dra. Giceli Oliveira, nutricionista, sorrindo com o jaleco bordado com seu nome" fetchpriority="high">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROOF ============ -->
+<section class="proof" aria-label="Reconhecimentos">
+  <div class="wrap">
+    <ul>
+      <li data-reveal>
+        <div>
+          <strong>5,0 no Google</strong>
+          <span><span class="stars" aria-hidden="true"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></span> 149 avaliações nas duas unidades</span>
+        </div>
+      </li>
+      <li data-reveal style="--i:1">
+        <div>
+          <strong>Prêmio Top of Mind Brazil</strong>
+          <span>Melhor Nutricionista de Feira de Santana, 2019/20 (INBRAP)</span>
+        </div>
+      </li>
+      <li data-reveal style="--i:2">
+        <div>
+          <strong>Certificado de Excelência</strong>
+          <span>Concedido pelos pacientes da Doctoralia, 2019</span>
+        </div>
+      </li>
+      <li data-reveal style="--i:3">
+        <div>
+          <strong>Formada pela UFBA</strong>
+          <span>Nutricionista CRN5 8265</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="servicos" aria-labelledby="servicos-title">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2 id="servicos-title">Atendimento para cada fase da sua saúde</h2>
+      <p>Planos individualizados para atender às necessidades de cada paciente. Quanto mais conhecemos o seu organismo, maiores as chances de resultados satisfatórios.</p>
+    </div>
+
+    <article class="feature" id="servico-emagrecimento" aria-labelledby="t-emag">
+      <div class="feature-media grade" data-reveal>
+        <img src="img/servico-emagrecimento.webp" width="1000" height="666" loading="lazy" alt="Nutricionista preenchendo avaliação nutricional ao lado de frutas, verduras e fita métrica">
+      </div>
+      <div data-reveal style="--i:1">
+        <h3 id="t-emag">Emagrecimento</h3>
+        <div class="meta">
+          <span><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1h30 de consulta</span>
+          <span>Para quem deseja perder de 5 kg a 50 kg ou mais</span>
+        </div>
+        <p class="lead">Emagreça com liberdade para comer de tudo, mantendo o equilíbrio e a autonomia nas suas escolhas alimentares.</p>
+        <p>Através da reeducação você emagrece, ganha massa magra de forma saudável e consegue manter o peso desejado depois de finalizar o tratamento. No Brasil, de cada 10 pessoas, aproximadamente 4 estão com sobrepeso e 2 apresentam obesidade.</p>
+        <a class="btn btn-gold wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Quero agendar uma consulta de Emagrecimento.">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Agendar consulta
+        </a>
+      </div>
+    </article>
+
+    <div class="svc-layout">
+      <ul class="svc-list">
+        <li class="svc" id="servico-saude-da-mulher" data-img="0" data-reveal>
+          <div class="svc-thumb"><img src="img/servico-saude-da-mulher.webp" width="900" height="601" loading="lazy" alt=""></div>
+          <div><h3 class="svc-name">Saúde da Mulher</h3><span class="svc-dur"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1h30</span></div>
+          <a class="svc-cta wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Quero agendar uma consulta de Saúde da Mulher." aria-label="Agendar consulta de Saúde da Mulher">Agendar <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </li>
+        <li class="svc" id="servico-esteatose-hepatica" data-img="1" data-reveal>
+          <div class="svc-thumb"><img src="img/servico-esteatose-hepatica.webp" width="639" height="347" loading="lazy" alt=""></div>
+          <div><h3 class="svc-name">Esteatose Hepática</h3><span class="svc-dur"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1h30</span></div>
+          <a class="svc-cta wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Quero agendar uma consulta sobre Esteatose Hepática." aria-label="Agendar consulta de Esteatose Hepática">Agendar <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </li>
+        <li class="svc" id="servico-doencas-metabolicas" data-img="2" data-reveal>
+          <div class="svc-thumb"><img src="img/servico-doencas-metabolicas.webp" width="900" height="577" loading="lazy" alt=""></div>
+          <div><h3 class="svc-name">Doenças Metabólicas</h3><span class="svc-dur"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1h30</span></div>
+          <a class="svc-cta wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Quero agendar uma consulta sobre Doenças Metabólicas." aria-label="Agendar consulta de Doenças Metabólicas">Agendar <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </li>
+        <li class="svc" id="servico-saude-gastrointestinal" data-img="3" data-reveal>
+          <div class="svc-thumb"><img src="img/servico-saude-gastrointestinal.webp" width="900" height="600" loading="lazy" alt=""></div>
+          <div><h3 class="svc-name">Nutrição e Saúde Gastrointestinal</h3><span class="svc-dur"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1h30</span></div>
+          <a class="svc-cta wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Quero agendar uma consulta de Nutrição e Saúde Gastrointestinal." aria-label="Agendar consulta de Nutrição e Saúde Gastrointestinal">Agendar <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </li>
+        <li class="svc" id="servico-bioimpedancia" data-img="4" data-reveal>
+          <div class="svc-thumb"><img src="img/servico-bioimpedancia.webp" width="800" height="800" loading="lazy" alt=""></div>
+          <div><h3 class="svc-name">Exame de Bioimpedância Elétrica</h3><span class="svc-dur"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>30 min</span></div>
+          <a class="svc-cta wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Quero agendar um Exame de Bioimpedância Elétrica." aria-label="Agendar Exame de Bioimpedância Elétrica">Agendar <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </li>
+        <li class="svc" id="servico-testes-nutrigeneticos" data-img="5" data-reveal>
+          <div class="svc-thumb"><img src="img/servico-testes-nutrigeneticos.webp" width="676" height="453" loading="lazy" alt=""></div>
+          <div><h3 class="svc-name">Testes Nutrigenéticos</h3><span class="svc-dur"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>1h30</span></div>
+          <a class="svc-cta wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Quero saber mais sobre os Testes Nutrigenéticos." aria-label="Agendar Testes Nutrigenéticos">Agendar <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </li>
+      </ul>
+      <figure class="svc-preview" aria-hidden="true">
+        <img class="is-on" src="img/servico-saude-da-mulher.webp" width="900" height="601" loading="lazy" alt="">
+        <img src="img/servico-esteatose-hepatica.webp" width="639" height="347" loading="lazy" alt="">
+        <img src="img/servico-doencas-metabolicas.webp" width="900" height="577" loading="lazy" alt="">
+        <img src="img/servico-saude-gastrointestinal.webp" width="900" height="600" loading="lazy" alt="">
+        <img src="img/servico-bioimpedancia.webp" width="800" height="800" loading="lazy" alt="">
+        <img src="img/servico-testes-nutrigeneticos.webp" width="676" height="453" loading="lazy" alt="">
+        <figcaption>Saúde da Mulher</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ METHOD ============ -->
+<section class="section tone-deep" id="metodo" aria-labelledby="metodo-title">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2 id="metodo-title">Como funciona a primeira consulta</h2>
+      <p>Busco de forma integrativa adequar a alimentação para que ela atenda às necessidades do seu corpo, à sua rotina e às suas emoções. Não utilizamos dietas de gaveta por aqui.</p>
+    </div>
+    <ol class="steps">
+      <li class="step" data-reveal>
+        <span class="step-dot"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></span>
+        <h3>Conversa sem pressa</h3>
+        <p>Cerca de 1h30 sobre seus hábitos alimentares, saúde, sintomas, estilo de vida e preferências.</p>
+      </li>
+      <li class="step" data-reveal style="--i:1">
+        <span class="step-dot"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>
+        <h3>Avaliação física</h3>
+        <p>Seu biotipo e composição corporal, por antropometria e/ou bioimpedância.</p>
+      </li>
+      <li class="step" data-reveal style="--i:2">
+        <span class="step-dot"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span>
+        <h3>Semiologia nutricional</h3>
+        <p>Sinais e sintomas que indicam possíveis carências nutricionais.</p>
+      </li>
+      <li class="step" data-reveal style="--i:3">
+        <span class="step-dot"><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"/></svg></span>
+        <h3>Sua dieta em 8 dias</h3>
+        <p>Calculada e pensada exatamente para o seu perfil, para atender a todas as suas necessidades.</p>
+      </li>
+    </ol>
+
+    <h3 class="deliver-head" data-reveal>O que você recebe</h3>
+    <div class="bento">
+      <div class="cell cell-gold" data-reveal>
+        <h4>Relatório físico</h4>
+        <p>Seus números, explicados, para acompanhar a evolução.</p>
+        <ul>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Índice de massa corporal</li>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Percentual de gordura corporal</li>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Percentual de massa muscular</li>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Peso ideal</li>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Idade corporal</li>
+        </ul>
+      </div>
+      <div class="cell cell-app" data-reveal style="--i:1">
+        <h4>Aplicativo da nutri</h4>
+        <ul>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Sua dieta e a lista de substituição sempre à mão</li>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Chat direto com a Dra. Giceli para tirar dúvidas</li>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Diário alimentar para enviar fotos das refeições</li>
+          <li class="tick"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Lembrete de hidratação</li>
+        </ul>
+      </div>
+      <div class="cell cell-split" data-reveal style="--i:2">
+        <div><h4>Metas SMART</h4><p>Objetivos claros e possíveis, etapa por etapa.</p></div>
+        <div><h4>Receitas exclusivas</h4><p>E lista de compras para facilitar a semana.</p></div>
+        <div><h4>Orientação nutricional</h4><p>Para você entender o porquê de cada escolha.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section tone-darkest" id="avaliacoes" aria-labelledby="avaliacoes-title">
+  <div class="wrap">
+    <div class="reviews-top">
+      <h2 id="avaliacoes-title" data-reveal>Quem consulta, recomenda</h2>
+      <div class="score" data-reveal style="--i:1">
+        <span class="score-num">5,0</span>
+        <div>
+          <span class="stars" role="img" aria-label="5 de 5 estrelas"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></span>
+          <p>Média no Google, com 149 avaliações em Feira de Santana e Salvador.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel" data-reveal>
+      <div class="track" tabindex="0" aria-label="Avaliações de pacientes no Google">
+        <article class="review"><blockquote>“Ela se adequou bem à minha rotina, não criou nada mirabolante e difícil de ser realizado e ainda assim tive resultado.”</blockquote><footer><span class="avatar" aria-hidden="true">G</span><div><cite>Gabrielle A.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“Consultar a nutri foi um ótimo investimento! Com dicas práticas e um plano feito sob medida, consegui melhorar a alimentação de um jeito leve e sem complicação.”</blockquote><footer><span class="avatar" aria-hidden="true">M</span><div><cite>Maria Laura S.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“Explica tudo com clareza, monta um plano alimentar de acordo com a nossa realidade e está sempre disposta a ajudar. Recomendo de olhos fechados!”</blockquote><footer><span class="avatar" aria-hidden="true">I</span><div><cite>Iumara S.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“Os resultados atingidos com as orientações da Giceli resolveram não só questões de emagrecimento, como também muitos problemas de saúde.”</blockquote><footer><span class="avatar" aria-hidden="true">I</span><div><cite>Ivana O.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“A consulta durou mais de duas horas. A atenção aos detalhes, o profissionalismo, a simpatia e o cuidado com o paciente deixam clara a qualidade do serviço.”</blockquote><footer><span class="avatar" aria-hidden="true">E</span><div><cite>Edna S.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“Faz uma consulta completa, bem minuciosa em todos os detalhes. Estou em acompanhamento e no primeiro mês já perdi 4 quilos. Estou adorando!”</blockquote><footer><span class="avatar" aria-hidden="true">F</span><div><cite>Fatima F.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“Amei o método da dieta. A dieta que ela passa é com alimentos que gostamos e consumimos.”</blockquote><footer><span class="avatar" aria-hidden="true">J</span><div><cite>Juyara G.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“Procurei a dra para me acompanhar no pós-parto, alcancei o meu objetivo e por isso super indico.”</blockquote><footer><span class="avatar" aria-hidden="true">R</span><div><cite>Raquel F.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“Pontual no seu atendimento. Consulta mais completa que já tive. Humana, educada, competente, um espaço aconchegante e lindo.”</blockquote><footer><span class="avatar" aria-hidden="true">D</span><div><cite>Denise N.</cite><small>Google · Feira de Santana</small></div></footer></article>
+        <article class="review"><blockquote>“Já me sinto mais consciente da minha alimentação e mais animada com o processo. Obrigada por todo o suporte e pela dedicação.”</blockquote><footer><span class="avatar" aria-hidden="true">S</span><div><cite>Stefany F.</cite><small>Google · Salvador</small></div></footer></article>
+        <article class="review"><blockquote>“Atendimento personalizado, atenciosa, pontual com o horário, consulta bem detalhada, analisando vários aspectos físicos e hábitos do paciente.”</blockquote><footer><span class="avatar" aria-hidden="true">L</span><div><cite>Liliane S.</cite><small>Google · Feira de Santana</small></div></footer></article>
+      </div>
+    </div>
+    <div class="reviews-foot">
+      <a class="link-arrow" href="https://maps.google.com/?cid=8100686036887856959" target="_blank" rel="noopener">Ver todas as avaliações no Google <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+      <div class="car-ctrl">
+        <button class="round car-prev" type="button" aria-label="Avaliações anteriores"><svg class="icon" aria-hidden="true"><use href="#i-caret-left"/></svg></button>
+        <button class="round car-next" type="button" aria-label="Próximas avaliações"><svg class="icon" aria-hidden="true"><use href="#i-caret-right"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="sobre" aria-labelledby="sobre-title">
+  <div class="wrap about">
+    <div class="about-photo" data-reveal>
+      <img src="img/giceli-abacaxi.webp" width="853" height="1280" loading="lazy" alt="Dra. Giceli Oliveira segurando um abacaxi fatiado, em ensaio da LF Fotografia">
+    </div>
+    <div>
+      <h2 id="sobre-title" data-reveal>Olá, eu sou a Giceli</h2>
+      <p class="creds" data-reveal>Nutricionista formada pela Universidade Federal da Bahia (UFBA) · CRN5 8265</p>
+      <div class="body" data-reveal>
+        <p>Todos os dias atendo pessoas que decidiram mudar a trajetória das suas vidas: cansadas de fazer dietas sem êxito ou de gastar com remédios e fórmulas milagrosas que prometem emagrecimento rápido.</p>
+        <p>Atuei no suporte à pesquisa científica na área de alimentos na Universidade Estadual da Bahia (UNEB) e hoje meu atendimento tem foco no emagrecimento definitivo. Também realizo palestras, eventos e cursos, e estou sempre em congressos e capacitações para oferecer o melhor a você.</p>
+        <p>Prezo por uma alimentação baseada em comida de verdade, que troca o hábito de abrir pacotes pelo simples ato de descascar alimentos. Mas sabe aquela pizza do domingo à noite? Você não vai precisar eliminar da sua vida. Vai aprender a dosar esses momentos a seu favor, sem culpa e sem exageros.</p>
+      </div>
+      <dl class="mvv" data-reveal>
+        <div><dt>Missão</dt><dd>Usar a educação nutricional como instrumento transformador de vida, considerando o perfil genético de cada pessoa e mostrando que a alimentação é a solução, e não o problema.</dd></div>
+        <div><dt>Visão</dt><dd>Ser nutricionista referência no emagrecimento personalizado, por meio de um tratamento baseado na empatia e no acolhimento.</dd></div>
+        <div><dt>Valores</dt><dd>Amor pelo trabalho, empatia, satisfação do cliente e sustentabilidade.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="manifesto tone-deep" aria-label="Filosofia">
+  <div class="wrap" data-reveal>
+    <img src="img/logo-emblem.png" width="148" height="279" alt="" loading="lazy">
+    <p>Não é sobre o peso que você perde, mas sobre <em>a vida que você ganha.</em></p>
+  </div>
+</section>
+
+<!-- ============ MEDIA ============ -->
+<section class="section" id="midia" aria-labelledby="midia-title">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2 id="midia-title">Reconhecimento e presença na mídia</h2>
+      <p>Prêmios, entrevistas e ações de saúde na comunidade.</p>
+    </div>
+    <div class="media-grid">
+      <figure class="m m-xl" data-reveal>
+        <div class="m-img"><img src="img/premio-top-of-mind.webp" width="900" height="900" loading="lazy" alt="Selo do Prêmio Top of Mind Brazil 2019/20 concedido pelo INBRAP à Dra. Giceli Oliveira como Melhor Nutricionista de Feira de Santana"></div>
+        <figcaption><strong>Prêmio Top of Mind Brazil</strong>Melhor Nutricionista de Feira de Santana, empresa certificada 2019/20 pelo INBRAP.</figcaption>
+      </figure>
+      <figure class="m m-wide" data-reveal style="--i:1">
+        <div class="m-img"><img src="img/tv-bahia-cancer-de-mama.webp" width="900" height="548" loading="lazy" alt="Dra. Giceli Oliveira em reportagem da TV Bahia sobre ação de prevenção ao câncer de mama"></div>
+        <figcaption><strong>TV Bahia</strong>Ação de prevenção ao câncer de mama.</figcaption>
+      </figure>
+      <figure class="m" data-reveal style="--i:2">
+        <div class="m-img"><img src="img/na-midia-radios.webp" width="900" height="900" loading="lazy" alt="Colagem de entrevistas da Dra. Giceli em emissoras de rádio"></div>
+        <figcaption><strong>Nutri na mídia</strong>Entrevistas em rádio e TV.</figcaption>
+      </figure>
+      <figure class="m m-doc" data-reveal style="--i:3">
+        <div class="m-img"><img src="img/certificado-doctoralia.webp" width="700" height="987" loading="lazy" alt="Certificado de Excelência Doctoralia 2019 em nome de Giceli Oliveira, com cinco estrelas"></div>
+        <figcaption><strong>Doctoralia 2019</strong>Certificado de Excelência.</figcaption>
+      </figure>
+      <figure class="m" data-reveal>
+        <div class="m-img"><img src="img/outubro-rosa-palestra.webp" width="700" height="804" loading="lazy" alt="Dra. Giceli Oliveira palestrando em evento do Outubro Rosa"></div>
+        <figcaption><strong>Outubro Rosa</strong>Palestra de prevenção ao câncer de mama.</figcaption>
+      </figure>
+      <figure class="m" data-reveal style="--i:1">
+        <div class="m-img"><img src="img/parceria-rancho-catarinense.webp" width="800" height="800" loading="lazy" alt="Dra. Giceli Oliveira no buffet do Restaurante Rancho Catarinense"></div>
+        <figcaption><strong>Rancho Catarinense</strong>Trabalho em parceria com o restaurante.</figcaption>
+      </figure>
+      <figure class="m" data-reveal style="--i:2">
+        <div class="m-img"><img src="img/radio-sociedade.webp" width="900" height="647" loading="lazy" alt="Dra. Giceli Oliveira com apresentadores no estúdio da Rádio Sociedade"></div>
+        <figcaption><strong>Rádio Sociedade</strong>Entrevista no estúdio.</figcaption>
+      </figure>
+      <figure class="m m-doc" data-reveal style="--i:3">
+        <div class="m-img"><img src="img/certificado-covid.webp" width="800" height="566" loading="lazy" alt="Certificado do Ministério da Saúde de capacitação nos protocolos de manejo clínico da COVID-19 em nome de Giceli da Silva Oliveira"></div>
+        <figcaption><strong>Ministério da Saúde</strong>Capacitação no enfrentamento da COVID-19.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section tone-deep" id="duvidas" aria-labelledby="duvidas-title">
+  <div class="wrap faq-grid">
+    <div class="faq-aside" data-reveal>
+      <h2 id="duvidas-title">A nutri responde</h2>
+      <p>Perguntas reais de pacientes. Ficou alguma dúvida? Fale direto comigo.</p>
+      <a class="btn btn-ghost wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Tenho uma dúvida antes de agendar.">
+        <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Tirar uma dúvida
+      </a>
+    </div>
+    <div data-reveal style="--i:1">
+      <details class="qa" open>
+        <summary>Aceita plano de saúde?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <div class="ans"><p>Não atendemos planos de saúde, apenas particular, porém emitimos recibo de pagamento. Com o recibo em mão, você poderá requerer do plano o ressarcimento do valor pago. Entre em contato com o seu plano e veja a possibilidade.</p><span class="who">Pergunta de Ana Luíza</span></div>
+      </details>
+      <details class="qa">
+        <summary>Como emagrecer sem efeito sanfona?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <div class="ans">
+          <ol>
+            <li><strong>Coma sempre para comer menos.</strong> Fracione suas refeições com intervalos menores, inserindo lanches. Isso evita jejuns prolongados e faz você comer menos nas principais refeições.</li>
+            <li><strong>Mantenha-se hidratada.</strong> Às vezes confundimos sede com fome, e a água participa de vários processos de excreção do corpo, o que evita a sensação de inchaço.</li>
+            <li><strong>Diminua os industrializados.</strong> Processados e ultraprocessados são ricos em conservantes, corantes e sódio, o que prejudica a perda de peso e a sua saúde.</li>
+          </ol>
+          <p>Existem muitas outras formas, e você vai descobrir comigo no consultório como evitar esse danadinho.</p>
+        </div>
+      </details>
+      <details class="qa">
+        <summary>Minhas roupas estão folgadas, mas a balança não mudou. Por quê?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <div class="ans"><p>Você provavelmente está perdendo gordura e ganhando massa muscular. Quando você perde 1 kg de gordura e ganha 1 kg de músculo, o peso se mantém, porque a gordura ocupa mais espaço do que o músculo. Você perde medidas, mas na balança o peso não se modifica.</p><span class="who">Pergunta de Samuel Albuquerque</span></div>
+      </details>
+      <details class="qa">
+        <summary>Posso tomar chá de hibisco sempre?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <div class="ans"><p>O chá de hibisco só deve ser consumido por um período pré-definido, sendo recomendado de 15 dias a um mês, e não deve ser utilizado sem a devida recomendação nutricional, que indicará o tempo necessário de uso para cada caso.</p><span class="who">Pergunta de Laura Santana</span></div>
+      </details>
+      <details class="qa">
+        <summary>Quais os dias e horários de atendimento?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <div class="ans"><p>Na unidade de Feira de Santana, o atendimento é 24 horas, todos os dias. Na unidade de Salvador, todos os dias, das 7h às 22h. Entre em contato para saber a disponibilidade de horários para agendamento.</p><span class="who">Pergunta de Cassia de Assis</span></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATIONS ============ -->
+<section class="section" id="localizacao" aria-labelledby="localizacao-title">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2 id="localizacao-title">Duas clínicas para atender você</h2>
+      <p>Escolha a unidade mais perto de você e agende direto pelo WhatsApp.</p>
+    </div>
+    <div class="units">
+      <article class="unit" data-reveal>
+        <div class="unit-map" data-map="Nutricionista Giceli Oliveira, Av. Getúlio Vargas, 792, Edf. Ícone Tower, Feira de Santana - BA"></div>
+        <div class="unit-body">
+          <h3>Feira de Santana</h3>
+          <div class="rating"><span class="stars" aria-hidden="true"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></span>5,0 com 123 avaliações</div>
+          <p class="hours"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Atendimento 24 horas, todos os dias</span></p>
+          <address><svg class="icon" aria-hidden="true"><use href="#i-map-pin"/></svg><span>Av. Getúlio Vargas, 792, Centro<br>Edf. Ícone Tower, Sala 607<br>Feira de Santana, BA · 44001-525</span></address>
+          <div class="unit-ctas">
+            <a class="btn btn-gold btn-sm" href="https://wa.me/5575991697851" data-unit-msg="Olá, Dra. Giceli! Quero agendar uma consulta na unidade de Feira de Santana."><svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>(75) 99169-7851</a>
+            <a class="btn btn-ghost btn-sm" href="https://maps.google.com/?cid=8100686036887856959" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-map-pin"/></svg>Como chegar</a>
+          </div>
+        </div>
+      </article>
+      <article class="unit" data-reveal style="--i:1">
+        <div class="unit-map" data-map="Nutricionista Giceli Oliveira, CEO Salvador Shopping, Torre Londres, Av. Tancredo Neves, Salvador - BA"></div>
+        <div class="unit-body">
+          <h3>Salvador</h3>
+          <div class="rating"><span class="stars" aria-hidden="true"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></span>5,0 com 26 avaliações</div>
+          <p class="hours"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Todos os dias, das 7h às 22h</span></p>
+          <address><svg class="icon" aria-hidden="true"><use href="#i-map-pin"/></svg><span>Av. Tancredo Neves, CEO Salvador Shopping<br>Torre Londres, 4º andar, Sala 405<br>Caminho das Árvores, Salvador, BA · 41820-774</span></address>
+          <div class="unit-ctas">
+            <a class="btn btn-gold btn-sm" href="https://wa.me/5571986731801" data-unit-msg="Olá, Dra. Giceli! Quero agendar uma consulta na unidade de Salvador."><svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>(71) 98673-1801</a>
+            <a class="btn btn-ghost btn-sm" href="https://www.google.com/maps/search/?api=1&amp;query=Nutricionista%20Giceli%20Oliveira%20CEO%20Salvador%20Shopping" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-map-pin"/></svg>Como chegar</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="info-row">
+      <div class="info" data-reveal><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"/></svg><div><strong>Atendimento com hora marcada</strong><p>Consulte a disponibilidade de horários pelo WhatsApp.</p></div></div>
+      <div class="info" data-reveal style="--i:1"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><div><strong>Atendimento particular</strong><p>Emitimos recibo para reembolso junto ao seu plano de saúde.</p></div></div>
+      <div class="info" data-reveal style="--i:2"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><div><strong>Telefones e WhatsApp</strong><p><a href="tel:+5575991697851">(75) 99169-7851</a> · <a href="tel:+5571986731801">(71) 98673-1801</a></p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="section final" aria-labelledby="final-title">
+  <div class="wrap final-grid">
+    <div data-reveal>
+      <h2 id="final-title">Vem comigo. Vamos caminhar juntos rumo a uma vida mais leve.</h2>
+      <p class="quote">“O segredo do progresso é começar.” <span>Mark Twain</span></p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Vim pelo site e quero agendar uma consulta.">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Agendar consulta
+        </a>
+      </div>
+    </div>
+    <img class="final-photo" src="img/giceli-recorte.webp" width="407" height="614" loading="lazy" alt="Dra. Giceli Oliveira de jaleco, sorrindo">
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img class="footer-logo" src="img/logo-full.png" width="922" height="452" loading="lazy" alt="Clínica de Nutrição Avançada Dra. Giceli Oliveira, CRN5 8265">
+        <div class="socials">
+          <a href="https://www.instagram.com/nutrigicelioliveira/" target="_blank" rel="noopener" aria-label="Instagram @nutrigicelioliveira"><svg class="icon" aria-hidden="true"><use href="#i-instagram-logo"/></svg></a>
+          <a href="https://www.facebook.com/nutrigicelioliveira/" target="_blank" rel="noopener" aria-label="Facebook da Dra. Giceli Oliveira"><svg class="icon" aria-hidden="true"><use href="#i-facebook-logo"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#midia">Na mídia</a></li>
+          <li><a href="#duvidas">Dúvidas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Feira de Santana</h4>
+        <p>Av. Getúlio Vargas, 792, Centro<br>Edf. Ícone Tower, Sala 607<br>24 horas, todos os dias</p>
+        <p style="margin-top:8px"><a href="https://wa.me/5575991697851">(75) 99169-7851</a></p>
+      </div>
+      <div>
+        <h4>Salvador</h4>
+        <p>CEO Salvador Shopping<br>Torre Londres, 4º andar, Sala 405<br>Todos os dias, das 7h às 22h</p>
+        <p style="margin-top:8px"><a href="https://wa.me/5571986731801">(71) 98673-1801</a></p>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© <span id="ano">2026</span> Clínica de Nutrição Avançada Dra. Giceli Oliveira · CRN5 8265</span>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar" aria-hidden="true">
+  <a class="btn btn-gold wa" href="https://wa.me/5571986731801" data-msg="Olá, Dra. Giceli! Vim pelo site e quero agendar uma consulta." tabindex="-1">
+    <svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Agendar consulta
+  </a>
+</div>
+
+<dialog class="wa-dialog" id="wa" aria-labelledby="wa-title">
+  <div class="wa-shell">
+    <div class="wa-card">
+      <span class="wa-grab" aria-hidden="true"></span>
+      <button class="round wa-close" type="button" aria-label="Fechar"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+      <h2 id="wa-title">Agendar pelo WhatsApp</h2>
+      <p>Escolha a unidade mais perto de você.</p>
+      <div class="wa-opts">
+        <a class="wa-opt" data-num="5575991697851" href="https://wa.me/5575991697851" target="_blank" rel="noopener">
+          <span class="wa-ic"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg></span>
+          <span><strong>Feira de Santana</strong><span>(75) 99169-7851</span></span>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+        </a>
+        <a class="wa-opt" data-num="5571986731801" href="https://wa.me/5571986731801" target="_blank" rel="noopener">
+          <span class="wa-ic"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg></span>
+          <span><strong>Salvador</strong><span>(71) 98673-1801</span></span>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var waURL = function(num, msg){ return 'https://wa.me/' + num + (msg ? '?text=' + encodeURIComponent(msg) : ''); };
+
+  /* WhatsApp: progressive enhancement. Without JS every CTA is a plain wa.me link. */
+  document.querySelectorAll('a.wa').forEach(function(a){
+    a.href = waURL('5571986731801', a.dataset.msg);
+  });
+  document.querySelectorAll('a[data-unit-msg]').forEach(function(a){
+    a.href = a.href.split('?')[0] + '?text=' + encodeURIComponent(a.dataset.unitMsg);
+    a.target = '_blank'; a.rel = 'noopener';
+  });
+  var dlg = document.getElementById('wa');
+  if (dlg && typeof dlg.showModal === 'function') {
+    var opener = null;
+    document.addEventListener('click', function(e){
+      var a = e.target.closest('a.wa');
+      if (!a) return;
+      e.preventDefault();
+      opener = a;
+      var msg = a.dataset.msg || '';
+      dlg.querySelectorAll('.wa-opt').forEach(function(o){ o.href = waURL(o.dataset.num, msg); });
+      closeMenu();
+      dlg.showModal();
+    });
+    var card = dlg.querySelector('.wa-card');
+    var sheetMQ = window.matchMedia('(max-width: 600px)');
+    var closing = false, suppressClick = false, bdAnim = null;
+    // Live on-screen translateY of the card, so every new motion starts where the eye sees it
+    var currentY = function(){ var t = getComputedStyle(card).transform; return t && t !== 'none' ? new DOMMatrixReadOnly(t).m42 : 0; };
+    var freeze = function(){ var y = currentY(); card.getAnimations().forEach(function(a){ a.cancel(); }); card.style.transform = 'translateY(' + y + 'px)'; return y; };
+    var reset = function(){ if (bdAnim) { bdAnim.cancel(); bdAnim = null; } card.style.transform = ''; card.style.opacity = ''; dlg.style.removeProperty('--bd'); closing = false; };
+    // Exit leaves the way it came in: the sheet slides back down, the centered card shrinks and fades. Exit is quicker than entry.
+    var close = function(velocity){
+      if (closing || !dlg.open) return;
+      if (reduce) { dlg.close(); return; }
+      closing = true;
+      var anim;
+      if (sheetMQ.matches) {
+        var y = freeze(), h = card.offsetHeight, v = Math.max(velocity || 0, 0);
+        var dur = Math.round(Math.min(260, Math.max(140, v > 0 ? (h - y) / v * 1000 : 240)));
+        anim = card.animate([{transform:'translateY(' + y + 'px)'}, {transform:'translateY(' + h + 'px)'}], {duration:dur, easing:'cubic-bezier(.32,.72,0,1)', fill:'forwards'});
+        var from = parseFloat(getComputedStyle(dlg).getPropertyValue('--bd')); if (isNaN(from)) from = 1;
+        try { bdAnim = dlg.animate([{opacity:from}, {opacity:0}], {duration:dur, fill:'forwards', pseudoElement:'::backdrop'}); } catch (_) {}
+      } else {
+        card.getAnimations().forEach(function(a){ a.cancel(); });
+        anim = card.animate([{opacity:1, transform:'scale(1)'}, {opacity:0, transform:'scale(.96)'}], {duration:150, easing:'cubic-bezier(.23,1,.32,1)', fill:'forwards'});
+      }
+      anim.finished.then(function(){ dlg.close(); anim.cancel(); reset(); }, function(){ dlg.close(); reset(); });
+    };
+    dlg.querySelector('.wa-close').addEventListener('click', function(){ close(); });
+    dlg.addEventListener('cancel', function(e){ e.preventDefault(); close(); });
+    dlg.addEventListener('click', function(e){
+      if (suppressClick) { e.preventDefault(); e.stopPropagation(); suppressClick = false; return; }
+      if (!e.target.closest('.wa-card')) close();
+    }, true);
+    dlg.querySelectorAll('.wa-opt').forEach(function(o){ o.addEventListener('click', function(){ setTimeout(close, 150); }); });
+    dlg.addEventListener('close', function(){ reset(); if (opener && document.contains(opener)) opener.focus({preventScroll:true}); });
+
+    /* Mobile sheet: drag down to dismiss. 1:1 tracking from the grab point, rubber-band upward,
+       momentum projection decides close vs. snap back, and the release velocity carries into the exit. */
+    var rubberband = function(over, dim){ var c = .55; return (over * dim * c) / (dim + c * Math.abs(over)); };
+    var project = function(v){ var d = .99; return (v / 1000) * d / (1 - d); };
+    var drag = null;
+    card.addEventListener('pointerdown', function(e){
+      if (!sheetMQ.matches || reduce || closing || (e.pointerType === 'mouse' && e.button !== 0)) return;
+      drag = {id:e.pointerId, y0:e.clientY, base:currentY(), live:false, hist:[{y:e.clientY, t:performance.now()}]};
+    });
+    window.addEventListener('pointermove', function(e){
+      if (!drag || e.pointerId !== drag.id) return;
+      var dy = e.clientY - drag.y0;
+      if (!drag.live) {
+        if (Math.abs(dy) < 10) return;          // hysteresis before committing to a drag
+        drag.live = true; drag.base = freeze(); drag.y0 = e.clientY;
+        card.setPointerCapture(e.pointerId);
+        dy = 0;
+      }
+      var y = drag.base + dy;
+      if (y < 0) y = rubberband(y, card.offsetHeight);
+      card.style.transform = 'translateY(' + y + 'px)';
+      dlg.style.setProperty('--bd', String(Math.max(0, 1 - y / card.offsetHeight)));
+      drag.hist.push({y:e.clientY, t:performance.now()});
+      if (drag.hist.length > 6) drag.hist.shift();
+    });
+    var endDrag = function(e){
+      if (!drag || e.pointerId !== drag.id) return;
+      var d = drag; drag = null;
+      if (!d.live) return;
+      suppressClick = true; setTimeout(function(){ suppressClick = false; }, 350);
+      var a = d.hist[0], b = d.hist[d.hist.length - 1];
+      var v = b.t > a.t ? (b.y - a.y) / (b.t - a.t) * 1000 : 0;   // px/s, positive = downward
+      var y = currentY(), h = card.offsetHeight;
+      if (v > 500 || y + project(v) > h * .4) { close(v); return; }   // a deliberate flick dismisses even from a short drag
+      card.animate([{transform:'translateY(' + y + 'px)'}, {transform:'translateY(0px)'}], {duration:260, easing:'cubic-bezier(.32,.72,0,1)'}).finished.then(function(){ if (!closing) card.style.transform = ''; });
+      card.style.transform = 'translateY(0px)';
+      dlg.style.removeProperty('--bd');
+    };
+    window.addEventListener('pointerup', endDrag);
+    window.addEventListener('pointercancel', endDrag);
+  }
+
+  /* Mobile menu */
+  var menu = document.getElementById('menu');
+  var menuBtn = document.querySelector('.menu-btn');
+  function openMenu(){ menu.classList.add('is-open'); menuBtn.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; menu.querySelector('.menu-close').focus(); }
+  function closeMenu(){ if(!menu.classList.contains('is-open')) return; menu.classList.remove('is-open'); menuBtn.setAttribute('aria-expanded','false'); document.body.style.overflow=''; }
+  menuBtn.addEventListener('click', openMenu);
+  menu.querySelector('.menu-close').addEventListener('click', function(){ closeMenu(); menuBtn.focus(); });
+  menu.querySelectorAll('nav a').forEach(function(a){ a.addEventListener('click', closeMenu); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeMenu(); });
+
+  /* Header state + mobile booking bar, driven by IntersectionObserver (no scroll listeners) */
+  var header = document.querySelector('.site-header');
+  var hero = document.getElementById('inicio');
+  var mbar = document.querySelector('.mbar');
+  var final = document.querySelector('.final');
+  var heroVisible = true, finalVisible = false;
+  var syncBar = function(){ mbar.classList.toggle('is-on', !heroVisible && !finalVisible); };
+  new IntersectionObserver(function(es){
+    es.forEach(function(e){ heroVisible = e.isIntersecting; header.classList.toggle('is-scrolled', e.intersectionRatio < 0.92); });
+    syncBar();
+  }, {threshold:[0, 0.92]}).observe(hero);
+  new IntersectionObserver(function(es){ es.forEach(function(e){ finalVisible = e.isIntersecting; }); syncBar(); }).observe(final);
+
+  /* Scroll reveal */
+  var rv = document.querySelectorAll('[data-reveal]');
+  if (reduce || !('IntersectionObserver' in window)) { rv.forEach(function(el){ el.classList.add('is-in'); }); }
+  else {
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('is-in'); io.unobserve(e.target); } });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:0.08});
+    rv.forEach(function(el){ io.observe(el); });
+  }
+
+  /* Service preview: hovered or focused row swaps the image on desktop */
+  var rows = document.querySelectorAll('.svc');
+  var prevImgs = document.querySelectorAll('.svc-preview img');
+  var prevCap = document.querySelector('.svc-preview figcaption');
+  var setSvc = function(row){
+    rows.forEach(function(r){ r.classList.toggle('is-active', r === row); });
+    var i = +row.dataset.img;
+    prevImgs.forEach(function(im, k){ im.classList.toggle('is-on', k === i); });
+    prevCap.textContent = row.querySelector('.svc-name').textContent;
+  };
+  rows.forEach(function(r){
+    r.addEventListener('pointerenter', function(e){ if (e.pointerType === 'mouse') setSvc(r); });
+    r.addEventListener('focusin', function(){ setSvc(r); });
+  });
+  if (rows[0]) rows[0].classList.add('is-active');
+  var hashRow = location.hash && document.querySelector('.svc' + location.hash);
+  if (hashRow) setSvc(hashRow);
+
+  /* Reviews carousel: native scroll-snap + buttons + mouse drag */
+  var track = document.querySelector('.track');
+  var prev = document.querySelector('.car-prev'), next = document.querySelector('.car-next');
+  var step = function(){ var c = track.querySelector('.review'); return c ? c.getBoundingClientRect().width + 16 : 320; };
+  var syncBtns = function(){
+    prev.disabled = track.scrollLeft < 4;
+    next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+  };
+  prev.addEventListener('click', function(){ track.scrollBy({left:-step(), behavior: reduce ? 'auto' : 'smooth'}); });
+  next.addEventListener('click', function(){ track.scrollBy({left: step(), behavior: reduce ? 'auto' : 'smooth'}); });
+  track.addEventListener('scroll', function(){ window.requestAnimationFrame(syncBtns); }, {passive:true});
+  syncBtns();
+  // Mouse drag (touch uses native scroll). A flick lands where its momentum projects, then snaps to the nearest card.
+  var down = false, sx = 0, sl = 0, moved = false, hist = [];
+  track.addEventListener('pointerdown', function(e){ if (e.pointerType !== 'mouse' || e.button !== 0) return; down = true; moved = false; sx = e.clientX; sl = track.scrollLeft; hist = [{x:e.clientX, t:performance.now()}]; });
+  window.addEventListener('pointermove', function(e){
+    if (!down) return;
+    var dx = e.clientX - sx;
+    if (Math.abs(dx) > 4 && !moved){ moved = true; track.classList.add('is-drag'); }
+    if (moved) track.scrollLeft = sl - dx;
+    hist.push({x:e.clientX, t:performance.now()}); if (hist.length > 6) hist.shift();
+  });
+  window.addEventListener('pointerup', function(){
+    if (!down) return; down = false;
+    if (!moved) return;
+    var a = hist[0], b = hist[hist.length - 1];
+    var v = b.t > a.t ? (b.x - a.x) / (b.t - a.t) * 1000 : 0;          // px/s of the pointer
+    var landing = track.scrollLeft - (v / 1000) * .995 / (1 - .995);    // scroll moves opposite to the pointer
+    var w = step(), max = track.scrollWidth - track.clientWidth;
+    track.classList.remove('is-drag');   // re-enable snapping only after reading where the drag left off
+    track.scrollTo({left: Math.max(0, Math.min(max, Math.round(landing / w) * w)), behavior: reduce ? 'auto' : 'smooth'});
+  });
+
+  /* Maps load only when the location section approaches the viewport */
+  var maps = document.querySelectorAll('.unit-map');
+  var mio = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if (!e.isIntersecting) return;
+      var f = document.createElement('iframe');
+      f.src = 'https://www.google.com/maps?q=' + encodeURIComponent(e.target.dataset.map) + '&output=embed';
+      f.loading = 'lazy'; f.title = 'Mapa: ' + e.target.dataset.map; f.referrerPolicy = 'no-referrer-when-downgrade';
+      e.target.appendChild(f); mio.unobserve(e.target);
+    });
+  }, {rootMargin:'400px 0px'});
+  maps.forEach(function(m){ mio.observe(m); });
+
+  document.getElementById('ano').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
